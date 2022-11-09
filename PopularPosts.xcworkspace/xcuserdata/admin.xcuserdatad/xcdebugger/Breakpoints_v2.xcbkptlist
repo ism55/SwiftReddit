@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "664CA933-EE66-450F-A0F1-B55D4D5A521E"
+            uuid = "6D6E987A-31AD-464B-8576-D79D368CEC28"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PopularPosts/ViewController.swift"
+            filePath = "PopularPosts/MyTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "configure(with:subreddit:author:comments:date:thumbnailURL:auxURL:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

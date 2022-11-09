@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  PopularPosts
+
+  Created by admin on 11/7/22.
+  
+*/
+
+"comments_str" = "Comments";
+"posted_by" = "Posted by";
+"next" = "Next";
+"prev" = "Prev";
+"alert_title" = "Reddit Alert!";
+"first_page" = "This is the first page!";
+"last_page" = "You've reached the last page!";

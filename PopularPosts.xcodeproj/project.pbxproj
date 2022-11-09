@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845AC2AD291A98DB00F938F6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 845AC2AC291A98DB00F938F6 /* Podfile */; };
+		845AC2AF291AD66900F938F6 /* RedditModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AC2AE291AD66800F938F6 /* RedditModel.swift */; };
+		845AC2B3291AF28C00F938F6 /* all.json in Resources */ = {isa = PBXBuildFile; fileRef = 845AC2B2291AF28B00F938F6 /* all.json */; };
 		84650CF5291962A500819456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84650CF4291962A500819456 /* AppDelegate.swift */; };
 		84650CF7291962A500819456 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84650CF6291962A500819456 /* SceneDelegate.swift */; };
 		84650CF9291962A500819456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84650CF8291962A500819456 /* ViewController.swift */; };
 		84650CFC291962A500819456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84650CFA291962A500819456 /* Main.storyboard */; };
 		84650CFE291962A900819456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84650CFD291962A900819456 /* Assets.xcassets */; };
 		84650D01291962A900819456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84650CFF291962A900819456 /* LaunchScreen.storyboard */; };
+		84650D0D29197B2D00819456 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84650D0B29197B2D00819456 /* MyTableViewCell.swift */; };
+		84650D0E29197B2D00819456 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84650D0C29197B2D00819456 /* MyTableViewCell.xib */; };
+		84D04C392919C64D00ABC346 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D04C3B2919C64D00ABC346 /* Localizable.strings */; };
+		CD35531D38EE193FC42B6D64 /* libPods-PopularPosts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D78FC86828DC5C657B403948 /* libPods-PopularPosts.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FE9B947C8D3CB65C82E2DAA /* Pods-PopularPosts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopularPosts.release.xcconfig"; path = "Target Support Files/Pods-PopularPosts/Pods-PopularPosts.release.xcconfig"; sourceTree = "<group>"; };
+		845AC2AC291A98DB00F938F6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		845AC2AE291AD66800F938F6 /* RedditModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditModel.swift; sourceTree = "<group>"; };
+		845AC2B2291AF28B00F938F6 /* all.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = all.json; sourceTree = "<group>"; };
 		84650CF1291962A500819456 /* PopularPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopularPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84650CF4291962A500819456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84650CF6291962A500819456 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,14 @@
 		84650CFD291962A900819456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84650D00291962A900819456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84650D02291962A900819456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84650D0B29197B2D00819456 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		84650D0C29197B2D00819456 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		84D04C3A2919C64D00ABC346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84D04C3C2919C68800ABC346 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		84D04C3D2919C68A00ABC346 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		84D04C3F2919C6A000ABC346 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A3CA8C25DEE8D0CC706151B2 /* Pods-PopularPosts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopularPosts.debug.xcconfig"; path = "Target Support Files/Pods-PopularPosts/Pods-PopularPosts.debug.xcconfig"; sourceTree = "<group>"; };
+		D78FC86828DC5C657B403948 /* libPods-PopularPosts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopularPosts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +50,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD35531D38EE193FC42B6D64 /* libPods-PopularPosts.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C1C01B836E47C616CD528CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3CA8C25DEE8D0CC706151B2 /* Pods-PopularPosts.debug.xcconfig */,
+				7FE9B947C8D3CB65C82E2DAA /* Pods-PopularPosts.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0C2C75FC15BACDA3E193801B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D78FC86828DC5C657B403948 /* libPods-PopularPosts.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845AC2B0291AD67000F938F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				845AC2AE291AD66800F938F6 /* RedditModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		84650CE8291962A500819456 = {
 			isa = PBXGroup;
 			children = (
+				845AC2B2291AF28B00F938F6 /* all.json */,
+				845AC2AC291A98DB00F938F6 /* Podfile */,
+				84D04C3B2919C64D00ABC346 /* Localizable.strings */,
 				84650CF3291962A500819456 /* PopularPosts */,
 				84650CF2291962A500819456 /* Products */,
+				0C1C01B836E47C616CD528CA /* Pods */,
+				0C2C75FC15BACDA3E193801B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +106,7 @@
 		84650CF3291962A500819456 /* PopularPosts */ = {
 			isa = PBXGroup;
 			children = (
+				845AC2B0291AD67000F938F6 /* Models */,
 				84650CF4291962A500819456 /* AppDelegate.swift */,
 				84650CF6291962A500819456 /* SceneDelegate.swift */,
 				84650CF8291962A500819456 /* ViewController.swift */,
@@ -63,6 +114,8 @@
 				84650CFD291962A900819456 /* Assets.xcassets */,
 				84650CFF291962A900819456 /* LaunchScreen.storyboard */,
 				84650D02291962A900819456 /* Info.plist */,
+				84650D0B29197B2D00819456 /* MyTableViewCell.swift */,
+				84650D0C29197B2D00819456 /* MyTableViewCell.xib */,
 			);
 			path = PopularPosts;
 			sourceTree = "<group>";
@@ -74,6 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84650D05291962A900819456 /* Build configuration list for PBXNativeTarget "PopularPosts" */;
 			buildPhases = (
+				8F332B81A06D0DE23035653E /* [CP] Check Pods Manifest.lock */,
 				84650CED291962A500819456 /* Sources */,
 				84650CEE291962A500819456 /* Frameworks */,
 				84650CEF291962A500819456 /* Resources */,
@@ -109,6 +163,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 84650CE8291962A500819456;
 			productRefGroup = 84650CF2291962A500819456 /* Products */;
@@ -125,6 +180,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845AC2AD291A98DB00F938F6 /* Podfile in Resources */,
+				84650D0E29197B2D00819456 /* MyTableViewCell.xib in Resources */,
+				84D04C392919C64D00ABC346 /* Localizable.strings in Resources */,
+				845AC2B3291AF28C00F938F6 /* all.json in Resources */,
 				84650D01291962A900819456 /* LaunchScreen.storyboard in Resources */,
 				84650CFE291962A900819456 /* Assets.xcassets in Resources */,
 				84650CFC291962A500819456 /* Main.storyboard in Resources */,
@@ -133,12 +192,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8F332B81A06D0DE23035653E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopularPosts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84650CED291962A500819456 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84650CF9291962A500819456 /* ViewController.swift in Sources */,
+				84650D0D29197B2D00819456 /* MyTableViewCell.swift in Sources */,
+				845AC2AF291AD66900F938F6 /* RedditModel.swift in Sources */,
 				84650CF5291962A500819456 /* AppDelegate.swift in Sources */,
 				84650CF7291962A500819456 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,6 +237,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				84650CFB291962A500819456 /* Base */,
+				84D04C3C2919C68800ABC346 /* es-419 */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +246,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				84650D00291962A900819456 /* Base */,
+				84D04C3D2919C68A00ABC346 /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84D04C3B2919C64D00ABC346 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D04C3A2919C64D00ABC346 /* en */,
+				84D04C3F2919C6A000ABC346 /* es-419 */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -231,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -284,6 +383,7 @@
 		};
 		84650D06291962A900819456 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CA8C25DEE8D0CC706151B2 /* Pods-PopularPosts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +411,7 @@
 		};
 		84650D07291962A900819456 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE9B947C8D3CB65C82E2DAA /* Pods-PopularPosts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  PopularPosts
+
+  Created by admin on 11/7/22.
+  
+*/
+
+
+"comments_str" = "Comentarios";
+"posted_by" = "Posteado por";
+"next" = "Sig";
+"prev" = "Ant";
+"alert_title" = "¡Alerta Reddit!";
+"first_page" = "¡Estás en el inicio!";
+"last_page" = "¡Has alcanzado la última página!";
